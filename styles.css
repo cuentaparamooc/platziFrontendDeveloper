@@ -1,8 +1,16 @@
-li > ul > li {
-    color: green;
+.container{
+    background-color: aqua;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.admin{
-    color: red;
-    font-weight: bold;
+.item{
+    width: 90px;
+    background-color: bisque;
 }
